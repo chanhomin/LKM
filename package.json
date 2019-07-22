@@ -1,0 +1,25 @@
+{
+  "name": "LKM",
+  "version": "1.0.0",
+  "main": "src/app.ts",
+  "repository": "https://github.com/chanhomin/LKM.git",
+  "license": "Apache",
+  "dependencies": {
+    "koa": "^2.7.0",
+    "koa-bodyparser": "^4.2.1",
+    "koa-cors": "^0.0.16",
+    "koa-router": "^7.4.0"
+  },
+  "scripts": {
+    "start": "ts-node ./src/app.ts"
+  },
+  "devDependencies": {
+    "@types/koa": "^2.0.49",
+    "@types/koa-bodyparser": "^4.3.0",
+    "@types/koa-cors": "^0.0.0",
+    "@types/koa-router": "^7.0.42",
+    "@types/node": "^12.6.8",
+    "ts-node": "^8.3.0",
+    "typescript": "^3.5.3"
+  }
+}
